@@ -17,7 +17,7 @@ export class UserFormComponent implements OnInit  {
     private router: Router,
     private userService: UserServiceService) {
       this.user = new User();
-    }
+  }
 
   ngOnInit(): void {
   }
